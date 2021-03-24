@@ -36,7 +36,6 @@ def upload_file(file_path:str):
         print(f"file path {file_path} does not exist")
         return
     
-
     service = build('drive', 'v3', credentials=auth())
     mime_type = "application/vnd.google-apps.spreadsheet"
     try:
@@ -59,4 +58,4 @@ def upload_file(file_path:str):
         return
 
 if __name__ == '__main__':
-    upload_file('./wiki.csv')
+    upload_file('./cast.csv')

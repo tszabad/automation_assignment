@@ -23,6 +23,10 @@ click enable drive.
 
 In resulting dialog click DOWNLOAD CLIENT CONFIGURATION and save the file credentials.json to your working directory.
 After start the "...." py and grant authorization to the script.
+credentials.py
+
+add the required service: Google Sheets API.
+
 
 
 
