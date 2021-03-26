@@ -65,7 +65,7 @@ pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-
 ./start.sh 
 ```
 
-and press enter. To run the shell file please make sure that you use Git Bash. The shell executes the scraping "crapy crawl imdb_movies", the cast memebers.py and the upload_to_drive.py files automatically.
+and press enter. To run the shell file please make sure that you use Git Bash. The shell executes the scraping "crapy crawl imdb_movies", the cast memebers.py and the upload_to_drive.py files automatically. It deletes  the previously saved imdb.csv file from the folder, as well.
 
 Then please wait until the scraping, processing and uploading is finished, this should take at least 5 minutes, so please be patient.
 
