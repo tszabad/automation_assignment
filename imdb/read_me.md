@@ -53,7 +53,7 @@ pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-
   python upload_to_drive.py
   ```
 
-  Then the "token.json" file is created automatically in your working directory, and you are now ready to start the application.
+  Then grant access to the app in the opening browser window, after that the "token.json" file is created automatically in your working directory, and you are now ready to start the application.
 
 
 

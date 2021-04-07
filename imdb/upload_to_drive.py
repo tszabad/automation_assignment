@@ -33,6 +33,7 @@ def auth():
     return creds
 def upload_file(file_path:str):
     if not os.path.exists(file_path):
+        service = build('drive', 'v3', credentials=auth())
         print(f"file path {file_path} does not exist")
         return
     
